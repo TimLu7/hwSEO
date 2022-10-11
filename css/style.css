@@ -1,0 +1,33 @@
+#boxModel .grid1 p,
+.row1 {
+  border: 2px solid rebeccapurple;
+  padding: 0.5em;
+}
+.block {
+  border: 2px solid blue;
+  padding: 0.5em;
+}
+.content1 li {
+  border: 2px solid blue;
+  padding: 0.5em;
+}
+
+.row1 {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div > div {
+  padding: 10px;
+  /* background-color: #ccc; */
+}
