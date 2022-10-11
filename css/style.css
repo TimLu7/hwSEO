@@ -1,4 +1,7 @@
-#boxModel .grid1 p,
+.html {
+  font-size: 16px;
+}
+#boxModel .content1 p,
 .row1 {
   border: 2px solid rebeccapurple;
   padding: 0.5em;
@@ -21,13 +24,14 @@
   display: block;
 }
 
-.grid {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: repeat(3, 1fr);
+#content2 ul {
+  display: inline;
 }
 
-div > div {
-  padding: 10px;
-  /* background-color: #ccc; */
+.ems li {
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
 }
